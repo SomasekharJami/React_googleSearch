@@ -1,0 +1,38 @@
+.listItem {
+  width: 65vw;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 8px;
+}
+.liP {
+  font-size: 1.5vw;
+  margin: 0;
+}
+.bton {
+  width: 1.5vw;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .listItem {
+    width: 75vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-right: 15px;
+    padding-left: 18px;
+  }
+  .liP {
+    font-size: 2.5vw;
+    margin: 0;
+  }
+  .bton {
+    width: 2.5vw;
+    margin: 0;
+  }
+}
